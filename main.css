@@ -2,12 +2,44 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}*/
+
+.container {
+  height: 100vh;
+  /* width: 60vw; */
 }
 
-.main-container {
-  max-height: 100vh;
-  max-width: 70%;
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 50%;
+  }
 }
 
-.task-form #input-task {
+#tasks-container {
+  height: calc(100vh * 0.7);
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-height: 576px) {
+  #tasks-container {
+    height: calc(100vh / 2);
+  }
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(240, 240, 240);
+  /* background-color: transparent; */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 8px;
+}
+
+/* #task-warning.ocultar {
+  display: none;
 } */
