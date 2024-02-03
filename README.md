@@ -1,8 +1,8 @@
-# ToDoapp
+# ToDo App
 
-Made this app to reinforce the JS concepts and practice the DOM manipulation
+Made this app to reinforce JS concepts and practice the DOM manipulation
 
-## Using...
+## Built With
 
-- HTML, CSS & Bootstrap
+- HTML5, CSS3 + Bootstrap
 - Vanilla JavaScript
